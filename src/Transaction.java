@@ -15,8 +15,11 @@ public class Transaction
 {
     Date d=new Date();
     String SKU="";
-    int Unit_Price;int Quantity;int Total_Price;
-             
+    int Unit_Price;
+    int Quantity;
+    int Total_Price;
+    
+    //constructor to set values         
    Transaction(Date d,String SKU,int Unit_Price,int Quantity,int Total_Price)
    {
        this.d=d;
@@ -25,5 +28,6 @@ public class Transaction
        this.Quantity=Quantity;
        this.Unit_Price=Unit_Price;
    }
+   
     
 }
